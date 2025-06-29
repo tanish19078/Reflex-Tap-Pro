@@ -28,11 +28,6 @@ Welcome to **Reflex Tap Pro**, a sleek and challenging reflex game hub built ent
 
 ---
 
-## 🖥️ Demo
-
-📽️ Coming soon — [Insert YouTube/GIF link here]
-
----
 
 ## 📸 Screenshots
 
@@ -57,4 +52,21 @@ Welcome to **Reflex Tap Pro**, a sleek and challenging reflex game hub built ent
 git clone https://github.com/your-username/reflex-tap-pro.git
 cd reflex-tap-pro
 python reflex_game.py
+
+--
+
+### 📁 Folder Structure
+
+reflex-tap-pro/
+├── reflex_game.py         # 🕹️ Main game script
+├── README.md              # 📖 GitHub project info
+├── highscore.txt          # 🏆 Stores high score locally
+├── .gitignore             # 🛑 ignores temp files
+├── LICENSE                # 📄 MIT or other license
+└── screenshots/           # 📸 Screenshots used in README
+    ├── gamehub.png
+    ├── reflex.png
+    ├── color.png
+    └── math.png
+
 
