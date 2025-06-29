@@ -2,8 +2,6 @@
 
 Welcome to **Reflex Tap Pro**, a sleek and challenging reflex game hub built entirely using Python’s `tkinter`. This arcade-style app includes three mini-games designed to test your reflexes, speed, and mental sharpness.
 
-![Game Hub](screenshots/gamehub.png)
-
 ---
 
 ## 🎮 Games Included
@@ -18,32 +16,18 @@ Welcome to **Reflex Tap Pro**, a sleek and challenging reflex game hub built ent
 
 ## ✨ Features
 
-- 🧠 3 Reflex mini-games in 1
-- 🎨 Clean UI with themed colors
-- 🕒 Countdown timers and score tracking
-- 🔥 Combo bonus scoring in Reflex Tap
-- 💾 High Score system (stored in `highscore.txt`)
-- 🐍 Pure Python — no external libraries required
-- 🏠 Game Hub menu to switch between games
+- 🧠 3 Reflex mini-games in 1  
+- 🎨 Clean UI with themed colors  
+- 🕒 Countdown timers and score tracking  
+- 🔥 Combo bonus scoring in Reflex Tap  
+- 💾 High Score system  
+- 🐍 Pure Python — no external libraries required  
+- 🏠 Game Hub menu to switch between games  
 
 ---
-
-
-## 📸 Screenshots
-
-> Place your screenshots in a `/screenshots` folder in the repo.
-
-| Game Hub              | Reflex Tap             | Color Match             | Math Flash              |
-|------------------------|------------------------|--------------------------|--------------------------|
-| ![](screenshots/gamehub.png) | ![](screenshots/reflex.png) | ![](screenshots/color.png) | ![](screenshots/math.png) |
-
----
-
-## 🛠️ Installation & Run
-
 ### 🔧 Requirements
 
-- Python 3.7 or higher
+- Python 3.7 or higher  
 - `tkinter` (comes preinstalled with Python)
 
 ### 💻 Run Locally
@@ -52,21 +36,5 @@ Welcome to **Reflex Tap Pro**, a sleek and challenging reflex game hub built ent
 git clone https://github.com/your-username/reflex-tap-pro.git
 cd reflex-tap-pro
 python reflex_game.py
-
---
-
-### 📁 Folder Structure
-
-reflex-tap-pro/
-├── reflex_game.py         # 🕹️ Main game script
-├── README.md              # 📖 GitHub project info
-├── highscore.txt          # 🏆 Stores high score locally
-├── .gitignore             # 🛑 ignores temp files
-├── LICENSE                # 📄 MIT or other license
-└── screenshots/           # 📸 Screenshots used in README
-    ├── gamehub.png
-    ├── reflex.png
-    ├── color.png
-    └── math.png
 
 
